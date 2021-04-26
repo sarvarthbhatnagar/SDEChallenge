@@ -9,8 +9,6 @@ MovingAverageImpl uses LinkedList as the underlying datastructure as it would of
 O(1) for writes - LinkedList has pointer to the last node
 O(N) for calculating moving average on last N elements
 
-3. Provide any additional explanation about the interface and implementation in a README file.
-
 ## Design Question
 
 1. Handle large write volume: Billions of write events per day.
